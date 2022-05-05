@@ -1,0 +1,58 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!doctype html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+    <h1 id="title"> freeCodeCamp Survey Form </h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+        <label id="name-label"> Name <input type="text" id="name" placeholder="Enter your name" required /> </label>
+        <label id="email-label">Email <input type="email" id="email" placeholder="Ener your Email" required />
+        </label>
+        <label id="number-label">
+            Age(optional) <input type="number" id="number" min="13" max="120" placeholder="Enter the age" />
+        </label>
+
+        <label> Select your option
+            <select id="dropdown">
+                <option>nill</option>
+                <option>null</option>
+            </select>
+        </label>
+
+        <label> please recommend to your friend?
+            <input type="radio" name="recommend" value="definitely" checked /> Definitely
+            <input type="radio" name="recommend" value="maybe" /> Maybe
+            <input type="radio" name="recommend" / value="not-sure"> Not Sure
+        </label>
+
+        <label>
+            <input type="checkbox" value="front-end" /> Front-End
+            <input type="checkbox" value="back-end" /> Back-End
+            <input type="checkbox" value="full-stack" /> Full-Stack
+        </label>
+        <label>Comments
+            <textarea name="comments">
+        </textarea>
+        </label>
+        <label>
+            <input type="submit" id="submit" value="Submit" />
+        </label>
+    </form>
+</body>
+
+</html>
